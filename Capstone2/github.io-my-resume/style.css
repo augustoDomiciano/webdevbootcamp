@@ -1,0 +1,125 @@
+body{
+    text-align: center;
+    font-family: 'Domine', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Young Serif', serif;
+    margin: 0;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0%;
+    color: #E55604;
+    font-size: 4rem;
+}
+
+h2{
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    color:#E55604;
+    font-size: 3rem;
+}
+
+h3{
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #FF8551;
+    font-size: 2rem;
+}
+
+p{
+    margin-bottom: 0%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    margin: 10px 20px;
+    color: #068DA9;
+    text-decoration: none;
+}
+
+.top-container{
+    background-color: #DFD7BF;
+    margin-bottom: 100px;
+}
+
+.photo{
+    border-radius: 50%;
+
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.coding{
+    display: grid;
+    margin: 30px auto 0 auto;
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.giphy-embed{
+grid-column: 1;
+grid-row: 1;
+}
+
+.lista{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 1.5rem;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.social{
+    padding-top: 50px;
+    display: block;
+    background-color: #DFD7BF;
+    margin-bottom: 0;
+}
+
+.anal{
+    text-decoration: underline;
+}
+
+.cor{
+    color:#E55604
+}
+
+.contact{
+    margin-top: 100px;
+}
+
+hr{
+    border: dotted #E55604 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.intermediare-container{
+    margin-bottom: 90px;
+}
+
+.btn{
+    margin-top: 40px;
+    border-radius: 8px;
+    background:#E55604;
+    color: #DFD7BF;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif; ;
+}
+
+.copyright{
+    font-size: 1rem;
+    color: #068DA9;
+    padding-top: 30px;
+}
