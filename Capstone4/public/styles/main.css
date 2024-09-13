@@ -1,0 +1,48 @@
+Body{
+    background-image: url("../images/fundo-de-anime-meme.jpg");
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Define a altura do body como 100% da altura da viewport */
+    display: flex; /* Utiliza Flexbox */
+    justify-content: flex-start; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    background-color: #212534; /* Cor de fundo opcional */
+}
+
+.container {
+    position: relative; /* Define o container como posição relativa */
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+  }
+
+  .btn {
+    width: 150px; /* Largura fixa do botão */
+    min-height: 50px; /* Altura mínima do botão */
+    padding: 10px 5px; /* Adiciona espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    background-color: #ff00a2; /* Cor de fundo do botão */
+    color: #ff00a2; /* Cor do texto do botão */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Cursor muda para pointer ao passar por cima */
+    position: absolute; /* Posiciona o botão de forma absoluta */
+    top: 150px; /* Define a distância do topo */
+    left: 100px; /* Define a distância da esquerda */
+    overflow: hidden; /* Esconde o texto que ultrapassa o tamanho horizontal */
+    text-overflow: ellipsis; /* Adiciona reticências se o texto ultrapassar horizontalmente */
+    white-space: norma  l; /* Permite que o texto quebre em várias linhas */
+    word-wrap: break-word; /* Quebra o texto longo em palavras */
+    transition: background-color 0.3s; /* Transição suave da cor de fundo */
+  }
+
+h1{
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    color: #000000;
+}
+
+.btn:hover{
+    color: #ffffff;
+    transition: color 1s;
+}
